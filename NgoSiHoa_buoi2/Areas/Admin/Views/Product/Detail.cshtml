@@ -1,0 +1,75 @@
+﻿@model NgoSiHoa_buoi2.Contex.Product
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Chi tiết sản phẩm</h2>
+<div>
+    <h4>Detail</h4>
+    <hr />
+    <table class="table">
+        <tr>
+            <th>
+                Tên sản phẩm
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Name)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Chi tiết
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Detail)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Giá
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Price)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Trạng thái
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Status)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Hình ảnh
+            </th>
+            <td>
+                <img src="@Url.Content("~/Images/" + Model.Hinh)" alt="Ảnh" style="max-width: 200px;" />
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Danh mục
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.CategoryId)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Giá khuyến mãi
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.PriceSale)
+            </td>
+        </tr>
+    </table>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

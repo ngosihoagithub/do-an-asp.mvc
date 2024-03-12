@@ -1,0 +1,64 @@
+﻿@model NgoSiHoa_buoi2.Contex.Product
+
+@{
+    ViewBag.Title = "Delete";
+}
+<h2>Xóa bỏ</h2>
+
+<h3>Bạn có chắc chắn muốn xóa cái này không?</h3>
+<div>
+    <hr />
+    <table class="table">
+        <tr>
+            <th>
+                Tên sản phẩm
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Name)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Chi tiết
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Detail)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Giá
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Price)
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Trạng thái
+            </th>
+            <td>
+                @Html.DisplayFor(model => model.Status)
+            </td>
+        </tr>
+        @if (!string.IsNullOrEmpty(Model.Hinh))
+        {
+            <tr>
+                <th>
+                    Ảnh hiện tại
+                </th>
+                <td>
+                    <img src="@Url.Content("~/Images/" + Model.Hinh)" alt="Ảnh" style="max-width: 200px;" />
+                </td>
+            </tr>
+        }
+    </table>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

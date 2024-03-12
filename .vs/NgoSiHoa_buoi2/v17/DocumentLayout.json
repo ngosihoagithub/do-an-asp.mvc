@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|d:\\ngosihoa_2121110370\\ngosihoa_buoi2\\ngosihoa_buoi2\\views\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\views\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\ngosihoa_buoi2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\ngosihoa_buoi2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\ngosihoa_buoi2\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\ngosihoa_buoi2\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\areas\\admin\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\ngosihoa_buoi2\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\areas\\admin\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\ngosihoa_buoi2\\areas\\admin\\views\\product\\capnhathinhanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46B9C396-3D69-4A09-94AD-78FAFDED0731}|NgoSiHoa_buoi2\\NgoSiHoa_buoi2.csproj|solutionrelative:ngosihoa_buoi2\\areas\\admin\\views\\product\\capnhathinhanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAuwNEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T03:30:24.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "common.cs",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Views\\common.cs",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Views\\common.cs",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Views\\common.cs",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Views\\common.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T03:29:34.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:14:36.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Controllers\\CartController.cs",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T15:14:34.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T14:49:45.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T14:49:44.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CapNhatHinhAnh.cshtml",
+              "DocumentMoniker": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\CapNhatHinhAnh.cshtml",
+              "RelativeDocumentMoniker": "NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\CapNhatHinhAnh.cshtml",
+              "ToolTip": "D:\\NgoSiHoa_2121110370\\NgoSiHoa_buoi2\\NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\CapNhatHinhAnh.cshtml",
+              "RelativeToolTip": "NgoSiHoa_buoi2\\Areas\\Admin\\Views\\Product\\CapNhatHinhAnh.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-10T14:49:41.818Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="max-age=604800" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shop Điện Tử</title>
+    <link href="~/Content/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- jQuery -->
+    <script src="~/Scripts/js/jquery-2.0.0.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/js/script.js"></script>
+
+    <!-- Bootstrap4 files-->
+    <script src="~/Scripts/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <!-- Font awesome 5 -->
+    <link href="~/Content/fonts/fontawesome/css/all.min.css" type="text/css" rel="stylesheet">
+
+    <!-- custom style -->
+    <link href="~/Content/css/ui.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/responsive.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/ui.css" rel="stylesheet" />
+    <!-- custom javascript -->
+    <script src="~/Scripts/js/script.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="section-header">
+        <section class="header-main border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-2 col-lg-3 col-md-12 text-center">
+                        <a href="https://localhost:44389/Home/Index" class="brand-wrap">
+                            <img class="logo" src="~/Content/images/logomoi.png" style="width: 60px; height: auto;">
+                        </a>
+                        <!-- brand-wrap.// -->
+                    </div>
+                    <div class="col-xl-6 col-lg-5 col-md-6">
+                        <form action="#" class="search-header">
+                            <div class="input-group w-100">
+                                <select class="custom-select border-right" name="category_name">
+                                    <option value="">Tất cả các loại</option>
+                                    <option value="codex">Đặc biệt</option>
+                                    <option value="comments">Tốt nhất</option>
+                                    <option value="content">Bao chất lượng</option>
+                                </select>
+                                <input type="text" class="form-control" placeholder="Search">
+
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="fa fa-search"></i> Search
+                                    </button>
+                                </div>
+                            </div>
+                        </form> <!-- search-wrap .end// -->
+                    </div> <!-- col.// -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="widgets-wrap float-md-right">
+                            <div class="widget-header mr-3">
+                                <style>
+                                    .widget-view {
+                                        display: flex;
+                                        align-items: center;
+                                    }
+
+                                    .icon-area {
+                                        margin-right: 10px;
+                                    }
+
+                                    .link {
+                                        text-decoration: none;
+                                        color: #333; /* Màu chữ */
+                                        margin-right: 10px; /* Khoảng cách giữa các liên kết */
+                                    }
+
+                                        .link:hover {
+                                            color: #007bff; /* Màu chữ khi hover */
+                                        }
+                                </style>
+                                <a href="#" class="widget-view">
+                                    @*<div class="icon-area">
+                                            <i class="fa fa-store fa-sm"></i>
+                                        </div>*@
+                                    @if (Session["idUser"] != null)
+                                    {
+                                        <a href="https://localhost:44389/Admin/Home/Index" class="link">Trang admin</a>
+                                        <a href="~/Home/Logout" class="link">Logout</a>
+                                    }
+                                    else
+                                    {
+
+                                        <a href="~/Home/Logout" class="link"><i class="fa fa-store fa-sm"></i>Login</a>
+                                    }
+                                    <a href="~/Home/Register" class="link">
+                                        <i class="fa-regular fa-registered"></i>
+                                        Đăng kí
+                                    </a>
+                                </a>
+                            </div>
+                            <div class="widget-header">
+                                <a href="@Url.Action("Index","Cart")" class="widget-view">
+                                    <div class="icon-area">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        <span class="notify" id="CartCount"> @Session["count"]</span>
+                                    </div>
+                                    <small class="text"> Cart </small>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- widgets-wrap.// -->
+                    </div> <!-- col.// -->
+                </div> <!-- row.// -->
+            </div> <!-- container.// -->
+        </section> <!-- header-main .// -->
+        <nav class="navbar navbar-main navbar-expand-lg border-bottom">
+            <div class="container">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div> <!-- container .// -->
+        </nav>
+    </header> <!-- section-header.// -->
+
+    
+        @RenderBody()
+    
+    
+
+    <!-- ========================= FOOTER ========================= -->
+    <footer class="section-footer bg-secondary">
+        <div class="container">
+            <section class="footer-top padding-y-lg text-white">
+                <div class="row">
+                    <aside class="col-md col-6">
+                        <h6 class="title">Thông tin về tôi</h6>
+                        <ul class="list-unstyled">
+                            <li> <a href="#">Thông tin liên hệ</a></li>
+                            <li> <a href="https://localhost:44389/Cart">Thông tin đặt hàng</a></li>
+                            <li> <a href="https://localhost:44389/Home/Login">Tài khoản</a></li>
+                            <li> <a href="https://localhost:44389/Home/Login">Thông tin tài khoản</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-md col-6">
+                        <h6 class="title">Thông tin về tôi</h6>
+                        <ul class="list-unstyled">
+                            <li> <a href="#">Thông tin liên hệ</a></li>
+                            <li> <a href="https://localhost:44389/Cart">Thông tin đặt hàng</a></li>
+                            <li> <a href="https://localhost:44389/Home/Login">Tài khoản</a></li>
+                            <li> <a href="#">Thông tin tài khoản</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-md-1">
+                        <h6 class="title">Xã Hội</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.facebook.com/profile.php?id=100014199159948"> <i class="fab fa-facebook"></i> Facebook </a></li>
+                            <li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>
+                            <li><a href="https://www.instagram.com/hoango30102003/"> <i class="fab fa-instagram"></i> Instagram </a></li>
+                            <li><a href="https://www.youtube.com/channel/UCVPEzlZ4mr4ZZm5tWB88Y5A"> <i class="fab fa-youtube"></i> Youtube </a></li>
+                        </ul>
+                    </aside>
+                </div> <!-- row.// -->
+            </section>	<!-- footer-top.// -->
+
+            <section class="footer-bottom text-center">
+
+                <p class="text-white"> Chính sách bảo mật - Điều khoản sử dụng - Thông tin người dùng Hướng dẫn yêu cầu pháp lý</p>
+                <p class="text-muted"> 2121110370_Ngô Sĩ Hòa</p>
+                <p class="text-muted"> Email:ngosihoaa2@gmail.com</p>
+
+                <br>
+            </section>
+        </div><!-- //container -->
+    </footer>
+    <!-- ========================= FOOTER END // ========================= -->
+</body>
+</html>
